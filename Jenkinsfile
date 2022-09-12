@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+    environment{
+        NAME="Lollo"
+    }
+
     stages{
         stage("build"){
             steps{
